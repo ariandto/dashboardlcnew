@@ -1,0 +1,152 @@
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table.highlight > tbody > tr:hover {
+    background-color: #f5f5f5; /* Menyoroti baris saat dihover */
+}
+
+table.highlight > tbody > tr > td,
+table.highlight > thead > tr > th {
+    padding: 12px 15px; /* Atur padding untuk sel-sel tabel */
+}
+
+.center-align {
+    text-align: center; /* Pusatkan teks di header tabel */
+}
+
+.container {
+    margin-top: 20px; /* Beri margin atas untuk menyesuaikan konten */
+}
+
+
+/* Pastikan tabel responsif */
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+/* Atur lebar minimum untuk kolom-kolom agar tidak terlalu sempit di perangkat seluler */
+.responsive-table th,
+.responsive-table td {
+    min-width: 120px; /* Sesuaikan lebar minimum dengan kebutuhan Anda */
+    border: 1px solid #ccc; /* Tambahkan border dengan warna abu-abu */
+    font-size: 14px; /* Ukuran font disesuaikan dengan kebutuhan */
+}
+
+/* Sesuaikan warna latar belakang saat baris dihover */
+.responsive-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Atur padding untuk sel-sel tabel */
+.responsive-table td,
+.responsive-table th {
+    padding: 12px 15px;
+}
+
+/* Pusatkan teks di header tabel */
+.center-align {
+    text-align: center;
+}
+
+/* Beri margin atas untuk menyesuaikan konten */
+.container {
+    margin-top: 20px;
+}
+
+/* Gaya untuk pagination */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.pagination li.active a {
+    background-color: #4caf50; /* Warna latar belakang untuk halaman aktif */
+    color: white; /* Warna teks untuk halaman aktif */
+    border-radius: 2px;
+}
+
+.pagination li.active a:hover {
+    background-color: #45a049; /* Warna latar belakang untuk halaman aktif saat dihover */
+}
+
+.pagination li a {
+    color: #333;
+    display: inline-block;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.pagination li a:hover:not(.active) {
+    background-color: #ddd; /* Warna latar belakang saat dihover */
+    cursor: pointer;
+}
+
+/* style.css */
+.dashboard-container {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 250px; /* Adjust margin to avoid overlapping with sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+thead {
+    background-color: #2196F3; /* Modern color */
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Row hover effect */
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination li.active {
+    background-color: #2196F3; /* Active page color */
+}
+
+.pagination li a {
+    color: #2196F3;
+}
+
+.pagination li a:hover {
+    background-color: #f1f1f1; /* Hover effect for pagination links */
+}
+
+.center-align {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        margin-left: 0;
+    }
+}
+
